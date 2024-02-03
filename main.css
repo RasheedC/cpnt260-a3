@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+
+}
+
+.cta-section {
+  background: url(https://images.macrumors.com/t/oklWCcyyKTyqhWo3jQJuU_XQd2M=/1600x0/article-new/2022/11/iPhone-14-Pro-Purple-Side-Perspective-Feature-Purple.jpg) center/cover no-repeat;
+  position:relative;
+  overflow: hidden;
+  padding: 100px 30px;
+  margin-top: 100px;
+}
+
+.background-overlay {
+  /* background: linear-gradient(to bottom, #9966ff 0%, #ff66ff 100%);
+  background-blend-mode: normal; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cta-content {
+  z-index: 1;
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 15px 0;
+}
+
+p {
+  line-height: 24px;
+
+}
+
+.cta-btn {
+  padding: 18px 20px;
+  line-height: 21px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  background: #007bff;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.cta-btn:hover {
+  background-color: #0056b3;
+}
+
+.btn-holder {
+  float: right;
+}
+
+.cta-col {
+  margin-bottom: 15px;
+  width: 100%;
+  float: left;
+}
+
+@media (min-width: 50rem) {
+  .cta-content {
+    text-align: left;
+  }
+  .cta-col {
+    min-height: 200px;
+  }
+  .col_1 {width: 60%;}
+  .col_2 {width: 40%;}
+}
+.col_2 {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
